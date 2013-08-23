@@ -1,6 +1,6 @@
 package Test::podimage;
 
-our $VERSION = 0.03;
+our $VERSION = 0.04;
 
 =pod
 
@@ -17,6 +17,20 @@ inline for 1:
 inline for @daxim:
 
 =for html <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gEEgIJDgjXTxYAAAE3SURBVGje7VhBDsMwCAPU/3+ZXbdKCRDMlLRwjJBqg4lpWFWVioOZqz9BQg+JxxC5bhKAaWAkWVVloGS1pXWEtKJSYfB19C2VqBQlqXetJDE7DxOxwCLIWGA9ZAQBMkPGW3Er7/m3VrTKK13xdsOT3z5yDJGoR6x4SnRdmeW/Q1reKmcc3tsVK0+yIBFrigXSQ1YyFQev/Zzp2FU5zNXD3z6yc3C/orS0mshcvkRUPiN/GMOW1nbx4+xKwFdAGvzNMeHuYqV+aTxDWlGpIKV4l0pUipLR+3AOUCRm5+EfKwMshIwF1kFGECBTZJwVt/Je8BwUrPJSVzS4Hk3y20eOIRL1iCVPia4rk/x3SMtb5ZTDe7ti5EkWJGRNscg4yEqm4tBdawTW2bGrdJirh799ZOPoV5Td4gPKYZdm2PperwAAAABJRU5ErkJggg==" title="img-tag, normal" alt="Inlineimage" /></p>
+
+inline with wrapping and p:
+
+=for html <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA
+	AADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2
+	nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gEEgIJDgjXTxYAAAE
+	3SURBVGje7VhBDsMwCAPU/3+ZXbdKCRDMlLRwjJBqg4lpWFWVioOZqz9BQg+
+	JxxC5bhKAaWAkWVVloGS1pXWEtKJSYfB19C2VqBQlqXetJDE7DxOxwCLIWGA
+	9ZAQBMkPGW3Er7/m3VrTKK13xdsOT3z5yDJGoR6x4SnRdmeW/Q1reKmcc3ts
+	VK0+yIBFrigXSQ1YyFQev/Zzp2FU5zNXD3z6yc3C/orS0mshcvkRUPiN/GMO
+	W1nbx4+xKwFdAGvzNMeHuYqV+aTxDWlGpIKV4l0pUipLR+3AOUCRm5+EfKwM
+	shIwF1kFGECBTZJwVt/Je8BwUrPJSVzS4Hk3y20eOIRL1iCVPia4rk/x3SMt
+	b5ZTDe7ti5EkWJGRNscg4yEqm4tBdawTW2bGrdJirh799ZOPoV5Td4gPKYZ
+	dm2PperwAAAABJRU5ErkJggg==" title="img-tag, normal" alt="Inlineimage" /></p>
 
 begin/end:
 
